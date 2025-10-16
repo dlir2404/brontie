@@ -1,3 +1,4 @@
+import { Cta } from "../comps/Cta"
 import { Guildline } from "../comps/Guildline"
 import { Hero } from "../comps/Hero"
 import { Question } from "../comps/Question"
@@ -10,6 +11,7 @@ export const Body = () => {
             <Guildline />
             <Reason />
             <Question />
+            <Cta />
         </>
     )
 }
