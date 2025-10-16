@@ -1,4 +1,4 @@
-import { Navigation } from "../custom/Navigation"
+import { Navigation } from "../comps/Navigation"
 import CartIcon from "@/assets/icons/cart.svg"
 import UserIcon from "@/assets/icons/user.svg"
 import { Badge } from "@/components/ui/badge"

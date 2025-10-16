@@ -7,6 +7,7 @@ import QrSvg from "@/assets/icons/qr.svg";
 import StoreSvg from "@/assets/icons/store.svg";
 import PlusSvg from "@/assets/icons/plus.svg";
 import WalletSvg from "@/assets/icons/wallet.svg";
+import { Heading1 } from "./Heading1";
 
 export const Hero = () => {
 
@@ -75,7 +76,7 @@ full summary report of sales and redemptions.`,
 
     return (
         <div className="mx-[104px] my-20 text-center">
-            <h1 className="text-primary font-poppins font-bold text-5xl mb-8">How Brontie <span className="relative after:absolute after:w-full after:h-[2px] after:-bottom-2 after:left-0 after:bg-secondary after:rounded-full">Works</span></h1>
+            <Heading1 className="text-primary">How Brontie <span className="relative after:absolute after:w-full after:h-[2px] after:-bottom-2 after:left-0 after:bg-secondary after:rounded-full">Works</span></Heading1>
             <p className="text-xl text-text-main mb-8">Simple for customers. Seamless for cafés.</p>
 
             <div className="mb-20">
