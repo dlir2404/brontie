@@ -84,7 +84,7 @@ full summary report of sales and redemptions.`,
                 <Button variant="outline">Chat on WhatApp</Button>
             </div>
 
-            <div className="flex flex-col md:flex-row gap-12">
+            <div className="flex flex-col md:flex-row gap-12 justify-center">
                 {cards.map((card, index) => (
                     <HeroCard key={index} {...card} />
                 ))}

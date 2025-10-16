@@ -40,7 +40,7 @@ export const Reason = () => {
             title: "Higher-Value Treats",
             content: <>
                 <p className="text-text-main mb-4">57% of Brontie customers choose a two coffees + cake option instead of a single drink. The average Brontie order value is €7.67* (based on 100 data points), showing that people are generous and happy to spend a little more when gifting.</p>
-                <div className="my-[18px] ml-4 bg-third text-primary">That means higher revenue potential for cafés.</div>
+                <div className="py-[18px] pl-4 rounded-2xl bg-third text-primary">That means higher revenue potential for cafés.</div>
             </>
         },
         {
@@ -51,7 +51,7 @@ export const Reason = () => {
     ]
 
     return (
-        <div className="py-10 px-[104px] bg-main-white">
+        <div className="py-20 px-[104px] bg-main-white">
             <Heading1 className="text-center">Why Cafés Love Brontie</Heading1>
             <p className="text-xl text-text-main mb-[57px] text-center">Discover how Brontie can transform your café's customer acquisition and revenue streams.</p>
 
@@ -65,10 +65,10 @@ export const Reason = () => {
                 <Image src="/images/reason1.png" alt="Reason 1 Image" width={584} height={491} className="ml-16 w-[584px] h-[491px] bg-white rounded-2xl" />
             </div>
 
-            <div className="flex justify-center mb-16">
+            <div className="flex justify-center">
                 <Image src="/images/reason2.png" alt="Reason 2 Image" width={584} height={384} className="w-[584px] h-[384px] bg-white rounded-2xl" />
 
-                <div className="w-[584px] h-[484px] flex flex-col gap-8 ml-16">
+                <div className="w-[584px] flex flex-col gap-8 ml-16">
                     {reason2.map((item, index) => (
                         <ReasonItem icon={item.icon} title={item.title} content={item.content} key={index} />
                     ))}
