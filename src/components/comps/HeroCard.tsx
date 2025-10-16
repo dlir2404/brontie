@@ -18,7 +18,7 @@ export interface HeroCardProps {
     };
 }
 
-const heroCardStyles = cva("rounded-[16px] shadow-[0_4px_6px_rgba(0,0,0,0.1),0_10px_16px_rgba(0,0,0,0.1)] px-8 py-10", {
+const heroCardStyles = cva("rounded-[16px] shadow-[0_4px_6px_rgba(0,0,0,0.1),0_10px_16px_rgba(0,0,0,0.1)] px-8 py-10 w-[592px]", {
     variants: {
         type: {
             primary: "bg-third",
@@ -63,8 +63,8 @@ export const HeroCard = ({
 
             <div className="mb-2">
                 {items.map((item, index) => (
-                    <div key={index} className="flex items-start gap-4 mb-6">
-                        <div className={cn(iconStyles({ type }), "w-10 h-10 min-w-10")}>
+                    <div key={index} className="flex items-start gap-4 mb-6 max-w-[457px]">
+                        <div className={cn(iconStyles({ type }), "w-10 h-10 min-w-10 [&>svg>path]:fill-white")}>
                             {item.icon}
                         </div>
 
