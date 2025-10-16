@@ -75,7 +75,7 @@ full summary report of sales and redemptions.`,
     ]
 
     return (
-        <div className="mx-[104px] my-20 text-center">
+        <div className="px-[104px] py-20 text-center bg-main-white">
             <Heading1 className="text-primary">How Brontie <span className="relative after:absolute after:w-full after:h-[2px] after:-bottom-2 after:left-0 after:bg-secondary after:rounded-full">Works</span></Heading1>
             <p className="text-xl text-text-main mb-8">Simple for customers. Seamless for cafés.</p>
 

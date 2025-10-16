@@ -36,6 +36,7 @@
 
   --color-third: #E6F7F7;
   --color-text-main: var(--text-main);
+  --color-main-white: var(--main-white);
 
   --color-popover-foreground: var(--popover-foreground);
   --color-popover: var(--popover);
@@ -82,6 +83,7 @@
   --sidebar-ring: oklch(0.708 0 0);
 
   --text-main: #4B5563; /* Tailwind gray-600 */
+  --main-white: #f9fafb;
 }
 
 .dark {
