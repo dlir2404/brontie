@@ -24,11 +24,13 @@ export const QuestionCollapsible = ({ title, content, className, open }: Questio
             <CollapsibleTrigger asChild>
                 <div className="flex my-5 mx-6 items-center justify-between cursor-pointer group" >
                     <h3 className="font-[600] text-[16px] group-hover:underline">{title}</h3>
-                    {isOpen ? <ExpandSvg /> : <CloseSvg />}
+                    <div className="w-4 h-4 flex items-center justify-center ml-4">
+                        {isOpen ? <ExpandSvg /> : <CloseSvg />}
+                    </div>
                 </div>
             </CollapsibleTrigger>
             <CollapsibleContent asChild>
-                <div className="text-text-main m-6 mt-0 text-[14px] font-[400] w-[576px]">{content}</div>
+                <div className="text-text-main m-6 mt-0 text-[14px] font-[400] md:w-[576px]">{content}</div>
             </CollapsibleContent>
         </Collapsible>
     )
