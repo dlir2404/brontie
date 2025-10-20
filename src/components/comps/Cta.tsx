@@ -5,7 +5,7 @@ export const Cta = () => {
     return (
         <div className="py-10 px-6 md:py-20 md:px-[104px] bg-third text-center">
             <div className="flex flex-col items-center">
-                <Heading1 className="max-w-[660px]">Ready to Join Ireland's Café Community?</Heading1>
+                <Heading1 className="max-w-[660px]">Ready to Join Ireland&apos;s Café Community?</Heading1>
                 <p className="px-5 md:px-0 md:text-xl text-text-main mb-10 md:mb-8 max-w-[807px]">Start attracting new customers today with zero upfront costs. Join the cafés already using Brontie to grow their business.</p>
             </div>
 

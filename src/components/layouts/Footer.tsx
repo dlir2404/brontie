@@ -12,7 +12,7 @@ export const Footer = () => {
                         alt="Logo"
                         className="w-[118px] h-[40px] object-cover object-[-8px_-6px] mb-6"
                     />
-                    <div className="text-text-main text-[16px] font-[400] mb-6">Ireland's first community-driven café gifting platform. Connecting people through the simple joy of sending coffee gifts while supporting local businesses.</div>
+                    <div className="text-text-main text-[16px] font-[400] mb-6">Ireland&apos;s first community-driven café gifting platform. Connecting people through the simple joy of sending coffee gifts while supporting local businesses.</div>
                     <div className="flex gap-4 items-center">
                         <div className="w-10 h-10 flex items-center justify-center rounded-full bg-[#1F2937]">
                             <FacebookSvg />

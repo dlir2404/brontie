@@ -63,7 +63,7 @@ export const GuildlineAccordion = () => {
             className="bg-white w-[729px] rounded-2xl"
         >
             {items.map((item) => (
-                <GuildlineAccordionItem index={item.index} icon={item.icon} title={item.title} content={item.content} />
+                <GuildlineAccordionItem key={item.index} index={item.index} icon={item.icon} title={item.title} content={item.content} />
             ))}
         </Accordion>
     )

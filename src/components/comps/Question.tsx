@@ -34,7 +34,7 @@ export const Question = () => {
     return (
         <div className="pt-8 pb-[56px] px-6 md:py-20 md:px-[104px] bg-main-white">
             <div className="flex flex-col items-center text-center md:text-start">
-                <Heading1 className="md:-translate-x-50">Got questions? We've got answers.</Heading1>
+                <Heading1 className="md:-translate-x-50">Got questions? We&apos;ve got answers.</Heading1>
                 <p className="text-xl text-text-main mb-8 md:mb-[57px] md:-translate-x-72">The most common questions we get from cafés — answered simply.</p>
             </div>
 

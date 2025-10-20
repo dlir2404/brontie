@@ -13,7 +13,7 @@ export const Reason = () => {
         {
             icon: <ChartSvg className="w-4 h-4" />,
             title: "New Revenue Stream",
-            content: <p className="text-text-main">Brontie is more than a gift card — it's a new way to earn from your café. Unlike traditional vouchers, Brontie gifts are small, impulse- driven, and often shared. They bring in customers who may not have visited before and encourage repeat visits.</p>
+            content: <p className="text-text-main">Brontie is more than a gift card — it&apos;s a new way to earn from your café. Unlike traditional vouchers, Brontie gifts are small, impulse- driven, and often shared. They bring in customers who may not have visited before and encourage repeat visits.</p>
         },
         {
             icon: <TeamSvg />,
@@ -21,8 +21,8 @@ export const Reason = () => {
             content: <>
                 <p>Recipients often bring a friend when redeeming their gift — meaning one voucher often brings two customers through your door.</p>
                 <div className="bg-third text-primary border-l-4 border-primary rounded-tr-2xl rounded-br-2xl py-[18px] px-5">
-                    <p>"This has brought in new faces curious to see how they can</p>
-                    <p>redeem their gift."</p>
+                    <p>&ldquo;This has brought in new faces curious to see how they can</p>
+                    <p>redeem their gift.&rdquo;</p>
                     <p className="mt-2">— Barista, Willow & Wild Café</p>
                 </div>
             </>
@@ -30,7 +30,7 @@ export const Reason = () => {
         {
             icon: <ClockSvg />,
             title: "Turn Gifts Into Visits, Fast",
-            content: <p>Bronties don't linger. On average, they're redeemed within 13 days — giving your café a steady, consistent stream of new visitors.</p>
+            content: <p>Bronties don&apos;t linger. On average, they&apos;re redeemed within 13 days — giving your café a steady, consistent stream of new visitors.</p>
         }
     ]
 
@@ -53,7 +53,7 @@ export const Reason = () => {
     return (
         <div className="py-[56px] px-6 md:py-20 md:px-[104px] bg-main-white">
             <Heading1 className="text-center">Why Cafés Love Brontie</Heading1>
-            <p className="px-[18px] md:px-0 text-xl text-text-main mb-8 md:mb-[57px] text-center">Discover how Brontie can transform your café's customer acquisition and revenue streams.</p>
+            <p className="px-[18px] md:px-0 text-xl text-text-main mb-8 md:mb-[57px] text-center">Discover how Brontie can transform your café&apos;s customer acquisition and revenue streams.</p>
 
             <div className="flex flex-col md:flex-row justify-center mb-6 md:mb-16">
                 <div className="md:w-[584px] md:h-[484px] flex flex-col gap-8 mb-6 md:mb-0">
