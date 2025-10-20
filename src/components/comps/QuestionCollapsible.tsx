@@ -19,7 +19,7 @@ export const QuestionCollapsible = ({ title, content, className, open }: Questio
         <Collapsible
             open={isOpen}
             onOpenChange={setIsOpen}
-            className={cn("border border-border rounded-2xl w-[624px]", className)}
+            className={cn("border border-border rounded-2xl md:w-[624px]", className)}
         >
             <CollapsibleTrigger asChild>
                 <div className="flex my-5 mx-6 items-center justify-between cursor-pointer group" >

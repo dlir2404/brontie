@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, navigationMenuTriggerStyle } from "../ui/navigation-menu";
 
-export const Navigation = () => {
+export const Navigation = ({ className }: { className?: string }) => {
     const navs: { title: string, href: string }[] = [
         {
             title: "Gift",
@@ -26,7 +26,7 @@ export const Navigation = () => {
     ];
 
     return (
-        <NavigationMenu viewport={false}>
+        <NavigationMenu className={className} viewport={false}>
             <NavigationMenuList>
                 {navs.map((nav) => (
                     <NavigationMenuItem key={nav.title} className="relative">

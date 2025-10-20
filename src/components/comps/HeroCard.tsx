@@ -18,7 +18,7 @@ export interface HeroCardProps {
     };
 }
 
-const heroCardStyles = cva("rounded-[16px] shadow-[0_4px_6px_rgba(0,0,0,0.1),0_10px_16px_rgba(0,0,0,0.1)] px-8 py-10 w-[592px]", {
+const heroCardStyles = cva("rounded-[16px] shadow-[0_4px_6px_rgba(0,0,0,0.1),0_10px_16px_rgba(0,0,0,0.1)] px-8 py-10 md:w-[592px]", {
     variants: {
         type: {
             primary: "bg-third",

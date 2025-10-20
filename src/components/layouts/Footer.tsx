@@ -4,9 +4,9 @@ import TwitterSvg from '@/assets/icons/twitter.svg';
 
 export const Footer = () => {
     return (
-        <footer className="bg-[#111827] text-text-main py-16 px-28">
-            <div className="flex justify-between items-start gap-8 mb-12">
-                <div className="flex-1">
+        <footer className="bg-[#111827] text-text-main p-6 md:py-16 md:px-28">
+            <div className="block md:flex flex-row justify-between items-start gap-8 mb-6 MD:mb-12">
+                <div className="flex-1 mb-6 md:mb-0">
                     <img
                         src="./images/all-assets.png"
                         alt="Logo"
@@ -25,8 +25,8 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1 flex gap-8">
-                    <div className="flex-1">
+                <div className="flex-1 flex justify-between">
+                    <div>
                         <div className='font-[600] text-[18px] mb-4 text-white'>For Cafés</div>
 
                         <div className='mb-2 text-[16px] font-[400] text-text-main flex flex-col gap-[6px] items-start'>
@@ -37,7 +37,7 @@ export const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="flex-1">
+                    <div>
                         <div className='font-[600] text-[18px] mb-4 text-white'>Company</div>
 
                         <div className='mb-2 text-[16px] font-[400] text-text-main flex flex-col gap-[6px] items-start'>
@@ -49,8 +49,8 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='border-t border-t-[#1F2937] pt-[33px]'>
-                <div className="flex justify-between">
+            <div className='border-t border-t-[#9CA3AF] md:border-t-[#1F2937] pt-4 md:pt-[33px]'>
+                <div className="flex flex-col md:flex-row items-center md:justify-between">
                     <p>© 2024 Brontie. All rights reserved.</p>
                     <p>Made with ☕ in Ireland</p>
                 </div>

@@ -9,10 +9,10 @@ export const Header = () => {
             <img
                 src="./images/all-assets.png"
                 alt="Logo"
-                className="w-[166px] h-[56px] object-cover object-[0px_-10px] absolute top-8 left-[104px]"
+                className="w-[106px] h-[36px] md:w-[166px] md:h-[56px] object-cover object-[0px_-6px] md:object-[0px_-10px] md:absolute md:top-8 md:left-[104px]"
             />
-            <Navigation />
-            <div className="absolute top-[41px] right-[104px] flex gap-4">
+            <Navigation className="hidden md:block"/>
+            <div className="hidden absolute top-[41px] right-[104px] md:flex gap-4">
                 <div className="relative">
                     <CartIcon />
                     <Badge className="h-[18px] w-[18px] rounded-full px-1 tabular-nums bg-secondary text-black absolute -top-1 -right-1">

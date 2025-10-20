@@ -75,11 +75,11 @@ full summary report of sales and redemptions.`,
     ]
 
     return (
-        <div className="px-[104px] py-20 text-center bg-main-white">
+        <div className="p-6 pb-[56px] md:px-[104px] md:py-20 text-center bg-main-white">
             <Heading1 className="text-primary">How Brontie <span className="relative after:absolute after:w-full after:h-[2px] after:-bottom-2 after:left-0 after:bg-secondary after:rounded-full">Works</span></Heading1>
-            <p className="text-xl text-text-main mb-8">Simple for customers. Seamless for cafés.</p>
+            <p className="md:text-xl text-text-main mb-6 md:mb-8">Simple for customers. Seamless for cafés.</p>
 
-            <div className="mb-20">
+            <div className="mb-6 md:mb-20">
                 <Button className="mr-6">Start Listing (Free)</Button>
                 <Button variant="outline">Chat on WhatApp</Button>
             </div>

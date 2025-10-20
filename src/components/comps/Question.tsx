@@ -32,10 +32,10 @@ export const Question = () => {
     ]
 
     return (
-        <div className="py-20 px-[104px] bg-main-white">
-            <div className="flex flex-col items-center">
-                <Heading1 className="-translate-x-50">Got questions? We've got answers.</Heading1>
-                <p className="text-xl text-text-main mb-[57px] -translate-x-72">The most common questions we get from cafés — answered simply.</p>
+        <div className="pt-8 pb-[56px] px-6 md:py-20 md:px-[104px] bg-main-white">
+            <div className="flex flex-col items-center text-center md:text-start">
+                <Heading1 className="md:-translate-x-50">Got questions? We've got answers.</Heading1>
+                <p className="text-xl text-text-main mb-8 md:mb-[57px] md:-translate-x-72">The most common questions we get from cafés — answered simply.</p>
             </div>
 
             <div className="flex justify-center items-center">
@@ -56,7 +56,7 @@ export const Question = () => {
                     alt="Question Image"
                     width={552}
                     height={569}
-                    className="ml-[56px] w-[552px] h-[569px] rounded-2xl object-cover object-[60%_90%]"
+                    className="hidden md:block ml-[56px] w-[552px] h-[569px] rounded-2xl object-cover object-[60%_90%]"
                 />
             </div>
         </div>
